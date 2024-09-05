@@ -26,3 +26,7 @@
   bash package_manager.sh
 ```
 
+### Run the Application
+```bash
+  python main.py
+```
