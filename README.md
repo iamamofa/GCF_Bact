@@ -17,7 +17,7 @@
 ```bash
   cd GCF_Bact
 ```
-#### sets conda packages and other important ones
+#### sets conda packages and sets up Project
 ```bash
   bash install_prerequisites.sh
 ```
