@@ -1,0 +1,9 @@
+customtkinter
+pillow
+bowtie2
+bwa index
+kma
+cutadapt
+samtools
+picardtools
+bcftoools filter

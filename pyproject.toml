@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "gcf-bact"
+version = "0.1.0"
+description = "Bioinformatics Analysis Pipeline for Bacterial Genomics"
+authors = ["iamamofa <joamofa@st.ug.edu.gh>"]
+license = "Yes"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bowtie = "^0.11.0"
+cutadapt = "^4.9"
+bwa = "mem"
+minimap = "Bwa mem"
+samtool = "^0.0.2"
+samtools_tool = "^0.15"
+delly = "call"
+pybedtools = "^0.10.0"
+bioconda2biocontainer = "^0.0.7"
+samtools = "flagstat"
+
+[tool.poetry.group.dev.dependencies]
+picardtools = "^0.1.2"
+bcftools = "filter"
+Fast = "Tree"
+piqtree2 = "^0.3.1"
+bacpage = "^2024.3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
