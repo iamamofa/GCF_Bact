@@ -17,6 +17,10 @@
 ```bash
   cd GCF_Bact
 ```
+#### sets conda packages and other important ones
+```bash
+  bash install_prerequisites.sh
+```
 
 ```bash
   bash package_manager.sh
